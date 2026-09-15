@@ -21,7 +21,7 @@
     <string name="settings_language_title">語言</string>
     <string name="settings_language_system">跟隨系統</string>
     <string name="settings_language_zh">簡體中文</string>
-    <string name="settings_language_zh-rTW">正體中文</string>
+    <string name="settings_language_zh_rTW">正體中文</string>
     <string name="settings_language_ja">日本語</string>
     <string name="settings_language_en">English</string>
     <string name="settings_color_wheel">色調輪盤</string>
