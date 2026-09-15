@@ -46,6 +46,9 @@ object AppSettingsStore {
     /** App 内语言：简体中文。 */
     const val LANGUAGE_ZH = "zh"
 
+    /** App 內語言：中文。 */
+    const val LANGUAGE_ZH_TW = "zh-TW"
+
     /** App 内语言：日文。 */
     const val LANGUAGE_JA = "ja"
 
