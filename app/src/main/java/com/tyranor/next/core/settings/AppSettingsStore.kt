@@ -274,6 +274,7 @@ object AppSettingsStore {
 
     private fun normalizeLanguage(language: String?): String = when (language) {
         LANGUAGE_SYSTEM -> LANGUAGE_SYSTEM
+        LANGUAGE_ZH_TW -> LANGUAGE_ZH_TW
         LANGUAGE_JA -> LANGUAGE_JA
         LANGUAGE_EN -> LANGUAGE_EN
         else -> LANGUAGE_ZH
