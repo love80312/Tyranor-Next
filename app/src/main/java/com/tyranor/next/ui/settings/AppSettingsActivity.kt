@@ -103,6 +103,7 @@ internal fun AppSettingsScreen() {
                             var language by remember { mutableStateOf(AppSettingsStore.getLanguage(ctx)) }
                             val languageModes = listOf(
                                 AppSettingsStore.LANGUAGE_ZH to stringResource(R.string.settings_language_zh),
+                                AppSettingsStore.LANGUAGE_ZH_TW to stringResource(R.string.settings_language_zh_rTW),
                                 AppSettingsStore.LANGUAGE_JA to stringResource(R.string.settings_language_ja),
                                 AppSettingsStore.LANGUAGE_EN to stringResource(R.string.settings_language_en),
                                 AppSettingsStore.LANGUAGE_SYSTEM to stringResource(R.string.settings_language_system),
