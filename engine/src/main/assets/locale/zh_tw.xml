@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Locale lang="en_us">
-    <Item id="preference_title" text="全局设置"/>
-    <Item id="preference_title_individual" text="独立设置"/>
-    <Item id="preference_output_log" text="打印日志"/>
-    <Item id="preference_select_renderer" text="图形渲染器"/>
-    <Item id="preference_opengl" text="OpenGL（试验性）"/>
-    <Item id="preference_software" text="软件渲染器"/>
-    <Item id="preference_renderer_opt" text="渲染器高级选项"/>
-    <Item id="preference_soft_renderer_opt" text="软件渲染器选项"/>
-    <Item id="preference_opengl_renderer_opt" text="OpenGL渲染器选项"/>
-    <Item id="preference_multi_draw_thread" text="渲染线程数"/>
-    <Item id="preference_draw_thread_auto" text="自动"/>
+<Locale lang="zh_TW">
+    <Item id="preference_title" text="全域性設定"/>
+    <Item id="preference_title_individual" text="獨立設定"/>
+    <Item id="preference_output_log" text="列印日誌"/>
+    <Item id="preference_select_renderer" text="圖形渲染器"/>
+    <Item id="preference_opengl" text="OpenGL（試驗性）"/>
+    <Item id="preference_software" text="軟體渲染器"/>
+    <Item id="preference_renderer_opt" text="渲染器高階選項"/>
+    <Item id="preference_soft_renderer_opt" text="軟體渲染器選項"/>
+    <Item id="preference_opengl_renderer_opt" text="OpenGL渲染器選項"/>
+    <Item id="preference_multi_draw_thread" text="渲染執行緒數"/>
+    <Item id="preference_draw_thread_auto" text="自動"/>
     <Item id="preference_draw_thread_1" text="1"/>
     <Item id="preference_draw_thread_2" text="2"/>
     <Item id="preference_draw_thread_3" text="3"/>
@@ -19,107 +19,107 @@
     <Item id="preference_draw_thread_6" text="6"/>
     <Item id="preference_draw_thread_7" text="7"/>
     <Item id="preference_draw_thread_8" text="8"/>
-    <Item id="preference_software_compress_tex" text="纹理压缩"/>
-    <Item id="preference_soft_compress_tex_none" text="无压缩"/>
-    <Item id="preference_soft_compress_tex_halfline" text="半线压缩"/>
-    <Item id="preference_ogl_compress_tex" text="纹理压缩"/>
-    <Item id="preference_ogl_compress_tex_none" text="无压缩"/>
-    <Item id="preference_ogl_compress_tex_half" text="质量减半"/>
-    <Item id="preference_remember_last_path" text="记住最后使用的路径"/>
-    <Item id="preference_keep_screen_alive" text="保持屏幕常亮"/>
-    <Item id="preference_custom_option" text="自定义选项"/>
-    <Item id="preference_opengl_dup_target" text="复制目标纹理"/>
-    <Item id="preference_ogl_accurate_render" text="精确渲染模式"/>
-    <Item id="preference_ogl_max_texsize" text="最大纹理尺寸"/>
-    <Item id="preference_ogl_texsize_auto" text="自动"/>
+    <Item id="preference_software_compress_tex" text="紋理壓縮"/>
+    <Item id="preference_soft_compress_tex_none" text="無壓縮"/>
+    <Item id="preference_soft_compress_tex_halfline" text="半線壓縮"/>
+    <Item id="preference_ogl_compress_tex" text="紋理壓縮"/>
+    <Item id="preference_ogl_compress_tex_none" text="無壓縮"/>
+    <Item id="preference_ogl_compress_tex_half" text="質量減半"/>
+    <Item id="preference_remember_last_path" text="記住最後使用的路徑"/>
+    <Item id="preference_keep_screen_alive" text="保持螢幕常亮"/>
+    <Item id="preference_custom_option" text="自定義選項"/>
+    <Item id="preference_opengl_dup_target" text="複製目標紋理"/>
+    <Item id="preference_ogl_accurate_render" text="精確渲染模式"/>
+    <Item id="preference_ogl_max_texsize" text="最大紋理尺寸"/>
+    <Item id="preference_ogl_texsize_auto" text="自動"/>
     <Item id="preference_ogl_texsize_1024" text="1024"/>
     <Item id="preference_ogl_texsize_2048" text="2048"/>
     <Item id="preference_ogl_texsize_4096" text="4096"/>
     <Item id="preference_ogl_texsize_8192" text="8192"/>
     <Item id="preference_ogl_texsize_16384" text="16384"/>
-    <Item id="preference_mem_limit" text="限制内存用量（视具体游戏）"/>
+    <Item id="preference_mem_limit" text="限制記憶體用量（視具體遊戲）"/>
     <Item id="preference_mem_unlimited" text="不限"/>
-    <Item id="preference_mem_high" text="高占用(<300MB)"/>
-    <Item id="preference_mem_medium" text="中等占用(<200MB)"/>
-    <Item id="preference_mem_low" text="低占用(<100MB)"/>
-    <Item id="preference_show_fps" text="显示 FPS"/>
+    <Item id="preference_mem_high" text="高佔用(<300MB)"/>
+    <Item id="preference_mem_medium" text="中等佔用(<200MB)"/>
+    <Item id="preference_mem_low" text="低佔用(<100MB)"/>
+    <Item id="preference_show_fps" text="顯示 FPS"/>
     <Item id="preference_fps_limit" text="限制 FPS"/>
-    <Item id="preference_hide_loading_ad" text="加载时不显示广告"/>
-    <Item id="preference_rotate_screen_180" text="反转游戏屏幕"/>
-    <Item id="preference_virtual_cursor_scale" text="虚拟鼠标缩放比"/>
-    <Item id="preference_menu_handler_opacity" text="菜单按钮不透明度"/>
+    <Item id="preference_hide_loading_ad" text="載入時不顯示廣告"/>
+    <Item id="preference_rotate_screen_180" text="反轉游戲螢幕"/>
+    <Item id="preference_virtual_cursor_scale" text="虛擬滑鼠縮放比"/>
+    <Item id="preference_menu_handler_opacity" text="選單按鈕不透明度"/>
     <Item id="preference_reset" text="重置"/>
-    <Item id="preference_hide_android_sys_btn" text="隐藏系统键（需重启软件）"/>
-    <Item id="preference_default_font" text="默认字体（留空使用内置字体）"/>
-    <Item id="preference_force_def_font" text="强制使用默认字体"/>
+    <Item id="preference_hide_android_sys_btn" text="隱藏系統鍵（需重啟軟體）"/>
+    <Item id="preference_default_font" text="預設字型（留空使用內建字型）"/>
+    <Item id="preference_force_def_font" text="強制使用預設字型"/>
     <Item id="ok" text="OK"/>
     <Item id="cancel" text="取消"/>
-    <Item id="retry" text="重试"/>
-    <Item id="start" text="开始"/>
+    <Item id="retry" text="重試"/>
+    <Item id="start" text="開始"/>
     <Item id="stop" text="停止"/>
-    <Item id="reactive" text="重新激活"/>
-    <Item id="ensure_to_override_file" text="确认要覆盖吗："/>
-    <Item id="readonly_storage" text="发现只读的外部存储器"/>
-    <Item id="cannot_create_preference" text="无法创建配置"/>
-    <Item id="use_internal_path" text="外部存储目录无法安全写入文件，请移动或复制文件到些下列位置之后再尝试启动："/>
-    <Item id="continue_run" text="仍然继续"/>
-    <Item id="get_sdcard_permission" text="获取写入权限"/>
-    <Item id="crash_report" text="崩溃报告"/>
-    <Item id="crash_report_msg" text="发现崩溃数据，发送数据（%d个文件）到服务器以助我们改进这个应用？"/>
-    <Item id="menu_rotate" text="旋转屏幕"/>
-    <Item id="menu_global_preference" text="全局设置"/>
-    <Item id="menu_new_local_pref" text="新建独立设置"/>
-    <Item id="menu_local_pref" text="独立设置"/>
-    <Item id="menu_new_folder" text="新建文件夹"/>
-    <Item id="menu_about" text="关于"/>
+    <Item id="reactive" text="重新啟用"/>
+    <Item id="ensure_to_override_file" text="確認要覆蓋嗎："/>
+    <Item id="readonly_storage" text="發現只讀的外部儲存器"/>
+    <Item id="cannot_create_preference" text="無法建立配置"/>
+    <Item id="use_internal_path" text="外部儲存目錄無法安全寫入檔案，請移動或複製檔案到些下列位置之後再嘗試啟動："/>
+    <Item id="continue_run" text="仍然繼續"/>
+    <Item id="get_sdcard_permission" text="獲取寫入許可權"/>
+    <Item id="crash_report" text="崩潰報告"/>
+    <Item id="crash_report_msg" text="發現崩潰資料，傳送資料（%d個檔案）到伺服器以助我們改進這個應用？"/>
+    <Item id="menu_rotate" text="旋轉螢幕"/>
+    <Item id="menu_global_preference" text="全域性設定"/>
+    <Item id="menu_new_local_pref" text="新建獨立設定"/>
+    <Item id="menu_local_pref" text="獨立設定"/>
+    <Item id="menu_new_folder" text="新建資料夾"/>
+    <Item id="menu_about" text="關於"/>
     <Item id="menu_exit" text="退出"/>
-    <Item id="menu_help" text="查看幫助"/>
-    <Item id="menu_archive_repack" text="转换/解密XP3封包"/>
-    <Item id="about_content" text="可以在github补丁页面寻找补丁：&#10;https://zeas2.github.io/Kirikiroid2_patch/patch&#10;如遇到问题，请反馈到到项目页面：&#10;https://github.com/zeas2/Kirikiroid2/issues&#10;或者到百度贴吧寻找解决方案：&#10;百度Kirikiroid2吧"/>
+    <Item id="menu_help" text="檢視幫助"/>
+    <Item id="menu_archive_repack" text="轉換/解密XP3封包"/>
+    <Item id="about_content" text="可以在github補丁頁面尋找補丁：&#10;https://zeas2.github.io/Kirikiroid2_patch/patch&#10;如遇到問題，請反饋到到專案頁面：&#10;https://github.com/zeas2/Kirikiroid2/issues&#10;或者到百度貼吧尋找解決方案：&#10;百度Kirikiroid2吧"/>
     <Item id="about_content_i" text=""/>
-    <Item id="sure_to_exit" text="确定退出吗？"/>
+    <Item id="sure_to_exit" text="確定退出嗎？"/>
     <Item id="msgbox_yes" text="是"/>
     <Item id="msgbox_no" text="否"/>
-    <Item id="msgbox_ok" text="确定"/>
+    <Item id="msgbox_ok" text="確定"/>
     <Item id="msgbox_nerver_notice" text="不再提示"/>
-    <Item id="use_last_path" text="使用最近启动的路径："/>
+    <Item id="use_last_path" text="使用最近啟動的路徑："/>
 	
     <Item id="notice" text="提示"/>
-    <Item id="err_narrow_to_wide" text="无法转换字节字符为宽字符，可能数据被加密或损坏，也可能是使用了错误的文本编码。&#10;如果数据被加密，您可能需要xp3filter.tjs&#10;如果文本不是以SHIFT_JIS编码，需要用patch.tjs指定正确的编码格式。"/>
-	<Item id="err_no_memory" text="内存不足（若经常出现此问题，可以试着在选项里限制内存用量）"/>
-	<Item id="err_occured" text="发生错误"/>
-	<Item id="err_read_error" text="读取错误，数据或已损坏"/>
-	<Item id="err_not_xp3_archive" text="%1 不是有效的XP3包。数据或已损坏。"/>
-	<Item id="err_cannot_suggest_graph_ext" text="%1 无法加载此图片，可能是数据不完整或脚本错误"/>
-	<Item id="delete" text="删除"/>
-	<Item id="file_operate_menu_title" text="文件管理"/>
-	<Item id="file_operate_menu_text" text="请选择操作"/>
-	<Item id="ensure_to_delete_file" text="确定要删除吗："/>
-	<Item id="ensure_item_count" text="%d 个项目"/>
-	<Item id="device_info" text="设备信息"/>
-	<Item id="supported_opengl_extension" text="OpenGL扩展特性（仅列出当前可用的扩展）："/>
-	<Item id="preference_opengl_extension_opt" text="OpenGL扩展"/>
-	<Item id="startup_patch_fail" text="补丁失败，请更新patch.tjs"/>
-	<Item id="browse_patch_lib" text="浏览补丁库"/>
-	<Item id="preference_opengl_extension_desc" text="这里是可能利用的OpenGL扩展列表，用于提高渲染的效率。&#10;视设备的不同，部分特性开启后可能会出现渲染错误。"/>
-	<Item id="preference_android_fetch_sdcard_permission" text="获取外部存储卡写入权限"/>
+    <Item id="err_narrow_to_wide" text="無法轉換位元組字元為寬字元，可能資料被加密或損壞，也可能是使用了錯誤的文字編碼。&#10;如果資料被加密，您可能需要xp3filter.tjs&#10;如果文字不是以SHIFT_JIS編碼，需要用patch.tjs指定正確的編碼格式。"/>
+	<Item id="err_no_memory" text="記憶體不足（若經常出現此問題，可以試著在選項里限制記憶體用量）"/>
+	<Item id="err_occured" text="發生錯誤"/>
+	<Item id="err_read_error" text="讀取錯誤，資料或已損壞"/>
+	<Item id="err_not_xp3_archive" text="%1 不是有效的XP3包。資料或已損壞。"/>
+	<Item id="err_cannot_suggest_graph_ext" text="%1 無法載入此圖片，可能是資料不完整或指令碼錯誤"/>
+	<Item id="delete" text="刪除"/>
+	<Item id="file_operate_menu_title" text="檔案管理"/>
+	<Item id="file_operate_menu_text" text="請選擇操作"/>
+	<Item id="ensure_to_delete_file" text="確定要刪除嗎："/>
+	<Item id="ensure_item_count" text="%d 個專案"/>
+	<Item id="device_info" text="裝置資訊"/>
+	<Item id="supported_opengl_extension" text="OpenGL擴充套件特性（僅列出目前可用的擴充套件）："/>
+	<Item id="preference_opengl_extension_opt" text="OpenGL擴充套件"/>
+	<Item id="startup_patch_fail" text="補丁失敗，請更新patch.tjs"/>
+	<Item id="browse_patch_lib" text="瀏覽補丁庫"/>
+	<Item id="preference_opengl_extension_desc" text="這裡是可能利用的OpenGL擴充套件列表，用於提高渲染的效率。&#10;視裝置的不同，部分特性開啟後可能會出現渲染錯誤。"/>
+	<Item id="preference_android_fetch_sdcard_permission" text="獲取外部儲存卡寫入許可權"/>
 	
 	<Item id="filemgr_unselect" text="取消"/>
-	<Item id="filemgr_browse" text="浏览"/>
-	<Item id="filemgr_delete" text="删除"/>
-	<Item id="filemgr_copy" text="复制"/>
-	<Item id="filemgr_cut" text="剪切"/>
-	<Item id="filemgr_paste" text="粘贴到这里"/>
-	<Item id="filemgr_sendto" text="发送到"/>
-	<Item id="filemgr_unpack" text="解压缩"/>
-	<Item id="filemgr_rename" text="重命名"/>
-	<Item id="file_operate_failed" text="文件操作失败："/>
-	<Item id="fail_to_open_archive" text="无法作为压缩包打开："/>
+	<Item id="filemgr_browse" text="瀏覽"/>
+	<Item id="filemgr_delete" text="刪除"/>
+	<Item id="filemgr_copy" text="複製"/>
+	<Item id="filemgr_cut" text="剪下"/>
+	<Item id="filemgr_paste" text="貼上到這裡"/>
+	<Item id="filemgr_sendto" text="傳送到"/>
+	<Item id="filemgr_unpack" text="解壓縮"/>
+	<Item id="filemgr_rename" text="重新命名"/>
+	<Item id="file_operate_failed" text="檔案操作失敗："/>
+	<Item id="fail_to_open_archive" text="無法作為壓縮包開啟："/>
 	
-	<Item id="archive_repack_desc" text="解密并转换封包可以加快运行的速度并减少发热量。请保证剩余的空间大于最大的封包文件大小，否则转换操作可能会失败。"/>
-	<Item id="archive_repack_merge_img" text="合并遮罩图片"/>
-	<Item id="archive_repack_conv_etc2" text="转换图片格式为ETC2"/>
-	<Item id="archive_repack_proc_title" text="转换进行中..."/>
-	<Item id="archive_repack_no_xp3filter" text="当前目录未发现xp3filter，可能不需要进行转换。仍然继续？"/>
-	<Item id="archive_repack_no_xp3" text="当前目录未发现xp3封包，操作中止。"/>
+	<Item id="archive_repack_desc" text="解密並轉換封包可以加快執行的速度並減少發熱量。請保證剩餘的空間大於最大的封包檔案大小，否則轉換操作可能會失敗。"/>
+	<Item id="archive_repack_merge_img" text="合併遮罩圖片"/>
+	<Item id="archive_repack_conv_etc2" text="轉換圖片格式為ETC2"/>
+	<Item id="archive_repack_proc_title" text="轉換進行中..."/>
+	<Item id="archive_repack_no_xp3filter" text="目前目錄未發現xp3filter，可能不需要進行轉換。仍然繼續？"/>
+	<Item id="archive_repack_no_xp3" text="目前目錄未發現xp3封包，操作中止。"/>
 </Locale>
